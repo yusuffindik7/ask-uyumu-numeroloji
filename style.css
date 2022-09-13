@@ -1,0 +1,23 @@
+.formbox {
+	text-align: center;
+	display: inline-flex;
+	flex-direction: column;
+	width: 100%;
+	margin-top: 100px;
+	justify-content: space-between;
+}
+
+.btn {
+	background: #333;
+	color:	#fff;
+	border: 1px solid #666;
+	padding: 0.6rem 1.2rem;
+	margin: 1rem 0;
+	transition: all 0.3s;
+	border-radius: 10px;
+}      
+
+.btn:hover {
+	background-color: #555;
+	color: #fff;
+}
